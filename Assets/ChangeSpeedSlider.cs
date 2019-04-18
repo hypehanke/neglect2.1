@@ -37,8 +37,8 @@ public class ChangeSpeedSlider : MonoBehaviour
     public void fadeSliderOnChange(float defaultValue) {
         float defaultStart = defaultValue;
         //float defaultSpeedStart = defaultSpeed;
-        Debug.Log("startFadeDone");
-        Debug.Log(startFadeDone);
+        //Debug.Log("startFadeDone");
+        //Debug.Log(startFadeDone);
         if (!startFadeDone)
         {
             if (slider.value != defaultStart)

@@ -43,6 +43,6 @@ public class Movement : MonoBehaviour
     }
     private void speedVariation(){
         speed = Random.Range(speedMin, speedMax);
-        Debug.Log("Speed set(random) " + speed);
+        //Debug.Log("Speed set(random) " + speed);
     } 
 }
