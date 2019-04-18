@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-    public List<GameObject> balleros = new List<GameObject>();
+    //public List<GameObject> balleros = new List<GameObject>();
+    public GameObject playerObject;
+    public List<GameObject> balleros;
     public static int currentIndex;
     private float delay = 4f;
     // Start is called before the first frame update
     void Start()
     {
+        balleros = playerObject.GetComponent<BalleroSystem>().balleroGameObjects;
         currentIndex = Random.Range(0, 7);
         //InvokeRepeating("makeRandom", 0f, delay);
         makeRandom();
@@ -23,6 +26,7 @@ public class Manager : MonoBehaviour
 
     private void makeRandom()
     {
+        
         balleros[currentIndex].gameObject.GetComponent<activated>().active = true;
         StartCoroutine("deActivate");
     }

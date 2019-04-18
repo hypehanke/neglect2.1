@@ -488,6 +488,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ballero (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8796542942936325748, guid: 4f72e943650555c41b7bbd55195c5378,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3368413060767560988, guid: 4f72e943650555c41b7bbd55195c5378,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -659,6 +664,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ballero (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8796542942936325748, guid: 4f72e943650555c41b7bbd55195c5378,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3368413060767560988, guid: 4f72e943650555c41b7bbd55195c5378,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -747,6 +757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ballero (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796542942936325748, guid: 4f72e943650555c41b7bbd55195c5378,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3368413060767560988, guid: 4f72e943650555c41b7bbd55195c5378,
         type: 3}
@@ -905,6 +920,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neglectTarget: {fileID: 8796542942936325748, guid: 4f72e943650555c41b7bbd55195c5378,
     type: 3}
+  amountOfTargets: 10
+  radius: 1
+  balleroGameObjects: []
 --- !u!1 &400134564
 GameObject:
   m_ObjectHideFlags: 0
@@ -1512,6 +1530,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ballero (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8796542942936325748, guid: 4f72e943650555c41b7bbd55195c5378,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3368413060767560988, guid: 4f72e943650555c41b7bbd55195c5378,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1983,6 +2006,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ballero (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8796542942936325748, guid: 4f72e943650555c41b7bbd55195c5378,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3368413060767560988, guid: 4f72e943650555c41b7bbd55195c5378,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2354,6 +2382,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ballero (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8796542942936325748, guid: 4f72e943650555c41b7bbd55195c5378,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3368413060767560988, guid: 4f72e943650555c41b7bbd55195c5378,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2674,6 +2707,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ballero (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796542942936325748, guid: 4f72e943650555c41b7bbd55195c5378,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3368413060767560988, guid: 4f72e943650555c41b7bbd55195c5378,
         type: 3}
@@ -3302,6 +3340,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ballero
       objectReference: {fileID: 0}
+    - target: {fileID: 8796542942936325748, guid: 4f72e943650555c41b7bbd55195c5378,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3368413060767560988, guid: 4f72e943650555c41b7bbd55195c5378,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3413,6 +3456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219fdd23f4cecba40b877ec46b563b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObject: {fileID: 298079669}
   balleros:
   - {fileID: 1202932644}
   - {fileID: 154036084}
