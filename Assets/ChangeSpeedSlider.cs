@@ -12,6 +12,9 @@ public class ChangeSpeedSlider : MonoBehaviour
 
     public GameObject affectedObject;
 
+    public float setScaled;
+    public int balleroAmount;
+
     void Start()
     {
         
@@ -29,8 +32,10 @@ public class ChangeSpeedSlider : MonoBehaviour
             affectedObject.GetComponent<Movement>().speedMin = slider.value;
             fadeSliderOnChange(defaultSpeed);
         } else if (gameObject.tag == "Size") {
-            Debug.Log("Size not set yet");
-            Debug.Log(slider.value);
+            setScaled = slider.value;
+        } else if (gameObject.tag == "Amount")
+        {
+            balleroAmount = (int) slider.value;
         }
     }
 

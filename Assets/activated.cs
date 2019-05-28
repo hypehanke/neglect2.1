@@ -16,7 +16,7 @@ public class activated : MonoBehaviour
     private Color originalMaterial;
 
     //changeable from settings
-    public float scaleAmount = 1f;
+    public float scaleAmount = 0.5f;
     
     // Start is called before the first frame update
     void Start()
@@ -47,6 +47,7 @@ public class activated : MonoBehaviour
 
         if (touched)
         {
+            gameObject.transform.localScale = startSize;
             gameObject.GetComponent<Renderer>().material.color = Color.blue;
             
         }
